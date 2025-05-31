@@ -41,14 +41,15 @@ const About = () => {
           </em>
         </h5>
         <p className="about-description">
-          I am a results-driven professional specializing in machine learning,
-          deep learning, NLP, LLMs, Gen AI, and AI agents, with expertise in
-          full-stack web development. I combine these technologies with web
-          development to build intelligent, data-driven applications, leveraging
-          cloud technologies to create secure, scalable solutions for complex
-          challenges. Passionate about advancing my AI knowledge, I am committed
-          to continuous learning through hands-on projects, coursework, and
-          contributions to platforms like GitHub, LeetCode, GfG, and Kaggle.
+          I am deeply passionate about the intersection of artificial
+          intelligence and web development. My expertise spans ML, DL, NLP, LLM,
+          Gen AI, and AI Agents. In parallel, I have a strong foundation in
+          full-stack web development, which I leverage to build innovative,
+          data-driven applications. By combining AI with scalable cloud
+          technologies, I strive to create impactful solutions to real-world
+          challenges. I am continuously expanding my knowledge through hands-on
+          projects, academic coursework, and contributions to platforms like
+          GitHub, LeetCode, and Kaggle.
         </p>
 
         {/* Social Links */}

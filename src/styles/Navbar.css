@@ -4,7 +4,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  height: 100px;
+  height: 80px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -29,7 +29,7 @@ header {
 
 /* Logo styling */
 .logo {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-left: 40px;
   display: flex;
   align-items: center;
@@ -67,7 +67,7 @@ nav {
 
 .right-container li a {
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: rgb(1, 40, 91);
 }
 

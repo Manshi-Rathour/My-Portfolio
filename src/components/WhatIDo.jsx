@@ -33,7 +33,7 @@ const fadeInItem = {
   visible: (i) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.4, duration: 1 },
+    transition: { delay: i * 0.3, duration: 0.9 },
   }),
 };
 

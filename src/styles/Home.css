@@ -23,7 +23,7 @@
 }
 
 .about-name {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 10px;
   color: rgb(1, 40, 91);
@@ -32,7 +32,7 @@
 .about-title {
   margin-bottom: 10px;
   color: rgb(1, 40, 91);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .about-description {
@@ -49,8 +49,8 @@
 }
 
 .social-icons img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 .social-icons a {
@@ -73,7 +73,7 @@
   padding: 10px 20px;
   background-color: rgb(1, 40, 91);
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   text-decoration: none;
   border: 2px solid rgb(1, 40, 91);
@@ -164,7 +164,7 @@
 }
 
 .sectionHeading h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgb(1, 40, 91);
   font-weight: bold;
   text-align: center;
@@ -203,7 +203,7 @@
 
 .sectionDetails h2 {
   color: rgb(1, 40, 91);
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
 }
 
@@ -216,8 +216,8 @@
 }
 
 .iconGrid img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   object-fit: contain;
 }
 
