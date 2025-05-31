@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-// import Projects from './pages/Projects';
+import Projects from './pages/Projects';
 // import Experience from './pages/Experience';
 // import Education from './pages/Education';
 // import Contact from './pages/Contact Me';
@@ -15,10 +15,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/about" element={<Projects />} />
-        <Route path="/services" element={<Experience />} />
-        <Route path="/contact" element={<Education />} />
-        <Route path="/career" element={<Contact />} /> */}
+        <Route path="/projects" element={<Projects />} />
+        {/* <Route path="/experience" element={<Experience />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />
     </>
