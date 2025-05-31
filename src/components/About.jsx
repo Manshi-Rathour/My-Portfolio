@@ -59,7 +59,7 @@ const About = () => {
             title="LinkedIn"
             rel="noopener noreferrer"
           >
-            <img src={linkedinIcon} alt="LinkedIn" width={40} height={40} />
+            <img src={linkedinIcon} alt="LinkedIn" />
           </a>
           <a
             href="https://www.instagram.com/_rathour_manshi?igsh=NzFvbXlzMjduZGY4"
@@ -67,7 +67,7 @@ const About = () => {
             title="Instagram"
             rel="noopener noreferrer"
           >
-            <img src={instagramIcon} alt="Instagram" width={40} height={40} />
+            <img src={instagramIcon} alt="Instagram" />
           </a>
           <a
             href="https://github.com/Manshi-Rathour"
@@ -75,7 +75,7 @@ const About = () => {
             title="GitHub"
             rel="noopener noreferrer"
           >
-            <img src={githubIcon} alt="GitHub" width={40} height={40} />
+            <img src={githubIcon} alt="GitHub" />
           </a>
           <a
             href="https://leetcode.com/Manshi_Rathour/"
@@ -83,7 +83,7 @@ const About = () => {
             title="LeetCode"
             rel="noopener noreferrer"
           >
-            <img src={leetcodeIcon} alt="LeetCode" width={40} height={40} />
+            <img src={leetcodeIcon} alt="LeetCode" />
           </a>
           <a
             href="https://www.hackerrank.com/profile/manshi2086"
@@ -91,7 +91,7 @@ const About = () => {
             title="HackerRank"
             rel="noopener noreferrer"
           >
-            <img src={hackerrankIcon} alt="HackerRank" width={40} height={40} />
+            <img src={hackerrankIcon} alt="HackerRank" />
           </a>
           <a
             href="https://www.cloudskillsboost.google/public_profiles/9e93b857-0177-42eb-bb35-2188dfd7b79e"
@@ -112,7 +112,7 @@ const About = () => {
             title="Kaggle"
             rel="noopener noreferrer"
           >
-            <img src={kaggleIcon} alt="Kaggle" width={40} height={40} />
+            <img src={kaggleIcon} alt="Kaggle" />
           </a>
           <a
             href="mailto:manshi2086@gmail.com"
@@ -120,7 +120,7 @@ const About = () => {
             title="Email"
             rel="noopener noreferrer"
           >
-            <img src={emailIcon} alt="Email" width={40} height={40} />
+            <img src={emailIcon} alt="Email" />
           </a>
         </div>
 

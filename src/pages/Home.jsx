@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import About from "../components/About";
+import WhatIDo from "../components/WhatIDo";
 
 function Home() {
   useEffect(() => {
@@ -9,6 +10,7 @@ function Home() {
   return (
     <div id="home" className="home-page">
       <About />
+      <WhatIDo />
     </div>
   );
 }

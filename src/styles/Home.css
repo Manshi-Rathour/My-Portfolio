@@ -48,6 +48,11 @@
   margin-top: 30px;
 }
 
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
+
 .social-icons a {
   /* color: rgb(1, 40, 91); */
   margin: 0 6px;
@@ -71,7 +76,7 @@
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
-  border: none;
+  border: 2px solid rgb(1, 40, 91);
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -81,6 +86,7 @@
   background-color: transparent;
   border: 2px solid rgb(1, 40, 91);
   color: rgb(1, 40, 91);
+  text-decoration: none;
 }
 
 /* Image container */
@@ -136,5 +142,125 @@
   .profile-image-wrapper {
     width: 250px;
     height: 250px;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
+
+
+
+/* What I Do */
+.whatIDoContainer {
+  width: 100%;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionHeading h1 {
+  font-size: 3rem;
+  color: rgb(1, 40, 91);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 70px;
+  width: 100%;
+  /* max-width: 1200px; */
+  gap: 30px;
+  /* border: 2px solid blue; */
+  overflow: hidden;
+}
+
+.imageBox {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageBox img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sectionDetails {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionDetails h2 {
+  color: rgb(1, 40, 91);
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.iconGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.iconGrid img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.description p {
+  font-size: 1rem;
+  color: rgb(102, 128, 162);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 910px) {
+  .section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .imageBox,
+  .sectionDetails {
+    width: 100%;
+  }
+
+  .iconGrid {
+    justify-content: center;
+  }
+
+  .description {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionHeading h1 {
+    font-size: 2rem;
+  }
+
+  .iconGrid img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sectionDetails h2 {
+    font-size: 1.4rem;
   }
 }
