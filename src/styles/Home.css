@@ -23,7 +23,7 @@
 }
 
 .about-name {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 10px;
   color: rgb(1, 40, 91);
@@ -32,11 +32,11 @@
 .about-title {
   margin-bottom: 10px;
   color: rgb(1, 40, 91);
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .about-description {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.6;
   color: rgb(102, 128, 162);
 }
@@ -222,7 +222,7 @@
 }
 
 .description p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: rgb(102, 128, 162);
   line-height: 1.6;
   margin-bottom: 10px;
