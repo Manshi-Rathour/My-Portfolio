@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import ProjectsHeader from "../components/ProjectsHeader";
+import AllProjects from "../components/AllProjects";
 
 function Projects() {
   useEffect(() => {
@@ -9,6 +10,7 @@ function Projects() {
   return (
     <div id="project" className="project-page">
       <ProjectsHeader />
+      <AllProjects />
     </div>
   );
 }
