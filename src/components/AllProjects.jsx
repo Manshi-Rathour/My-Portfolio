@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-// ... all your imports
 import JournalIcon from "../assets/journal-bookmark-fill.svg";
 import PythonIcon from "../assets/icons8-python.svg";
 import OpenAIIcon from "../assets/openai.svg";
