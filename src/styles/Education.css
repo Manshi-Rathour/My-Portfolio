@@ -1,0 +1,319 @@
+.education-header-container {
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.education-header-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.education-header-item {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(1, 40, 91);
+}
+
+.education-header-image img {
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.education-header-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(1, 40, 91);
+}
+
+@media (max-width: 750px) {
+    .education-header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education-header-item {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .education-header-image {
+        margin-top: 20px;
+    }
+}
+
+#edu-desc {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: rgb(1, 40, 91);
+    font-weight: 500;
+}
+
+.edu-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.edu-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.edu-icons img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* Amity */
+
+#clg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #e5fafa;
+    padding: 60px 20px;
+    gap: 20px;
+}
+
+#amity-logo img {
+    width: 180px;
+    height: auto;
+}
+
+#card-container {
+    width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: "Segoe UI", sans-serif;
+    padding: 0;
+}
+
+.clg-name {
+    background-color: rgb(158, 231, 244);
+    padding: 20px;
+    color: rgb(1, 40, 91);
+}
+
+.clg-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: rgb(1, 40, 91);
+}
+
+.clg-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(1, 40, 91);
+}
+
+.clg-date {
+    font-size: 16px;
+    margin: 0;
+}
+
+.card-body {
+    background-color: rgb(230, 250, 253);
+    padding: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: rgb(1, 40, 91);
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.visit-btn {
+    background-color: rgb(158, 231, 244);
+    color: rgb(1, 40, 91);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.visit-btn:hover {
+    background-color: rgb(98, 231, 254);
+    text-decoration: none;
+}
+
+@media (max-width: 750px) {
+    #clg {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #card-container {
+        width: 90%;
+    }
+
+    .clg-name {
+        text-align: center;
+    }
+
+    #amity-logo img {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Certifications */
+
+#certifications {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+#certificates h1 {
+    font-weight: bold;
+    color: rgb(1, 40, 91);
+}
+
+.certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 4px 15px 8px rgba(72, 72, 72, 0.5);
+    flex: 0 0 calc(33.333% - 20px);
+    box-sizing: border-box;
+    height: 270px;
+    transition: box-shadow 0.3s ease;
+}
+
+.certificate:hover {
+    box-shadow: 2px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.certificate img {
+    max-height: 150px;
+    width: auto;
+    object-fit: contain;
+    margin: 10px auto 0;
+    display: block;
+}
+
+.certificate .card-body {
+    background-color: rgb(184, 244, 255);
+    color: rgb(1, 40, 91);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-height: 60px;
+}
+
+.certificate .card-body h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(1, 40, 91);
+}
+
+.certificate a {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .certificate {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .certificate {
+        flex: 0 0 100%;
+    }
+}
+
+
+#moreproj {
+    display: flex;
+    justify-content: center;
+}
+
+#moreproj .btn {
+    background-color: rgb(1, 40, 91);
+    border: 2px solid rgb(1, 40, 91);
+    color: white;
+    width: auto;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#moreproj .btn:hover {
+    background-color: transparent;
+    color: rgb(1, 40, 91);
+    border: 2px solid rgb(1, 40, 91);
+    text-decoration: none;
+}
