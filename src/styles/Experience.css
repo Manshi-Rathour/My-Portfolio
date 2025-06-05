@@ -50,6 +50,7 @@
     .experience-header-container {
         flex-direction: column;
         align-items: center;
+        height: auto;
     }
 
     .experience-header-item {

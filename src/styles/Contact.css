@@ -40,12 +40,6 @@
         flex-direction: column;
         align-items: center;
     }
-
-    .education-img img {
-        width: 200px;
-        height: 150px;
-        margin-top: 50px;
-    }
 }
 
 .contact h1 {
