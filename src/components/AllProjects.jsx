@@ -33,8 +33,6 @@ const MotionRow = ({ children }) => {
 };
 
 const AllProjects = () => {
-  const location = useLocation();
-
   return (
     <>
       <div id="allprojects">
