@@ -130,10 +130,11 @@ const AllProjects = () => {
                       <img src={JournalIcon} alt="icon" /> Financial-AI-Analyst
                     </h4>
                     <p className="card-text">
-                      🔥An AI-powered platform delivering real-time financial
-                      data, stock insights, company news, and analyst
-                      recommendations through an interactive interface.
+                      🔥 Built an AI-driven financial platform with real-time
+                      stock data, news, and analyst insights using Streamlit and
+                      LLaMA-3 agents powered by YFinance and DuckDuckGo tools.
                     </p>
+
                     <div className="icons">
                       <img src={PythonIcon} alt="python" />
                       <img
@@ -170,97 +171,6 @@ const AllProjects = () => {
                 </div>
               </Link>
             </div>
-
-            <div className="project-card">
-              <Link
-                to="https://github.com/Manshi-Rathour/Airbnb-Clone"
-                target="_blank"
-                className="animated-card"
-              >
-                <div className="card animate-content">
-                  <div className="card-body">
-                    <h4 className="card-title">
-                      <img src={JournalIcon} alt="icon" /> Airbnb Clone
-                    </h4>
-                    <p className="card-text">
-                      🔥Developed an Airbnb clone with key features like a
-                      searchable homepage, secure authentication, role-based
-                      access, CRUD functionality, and map integration.
-                    </p>
-                    <div className="icons">
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                        alt="html5"
-                      />
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                        alt="css3"
-                      />
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                        alt="javascript"
-                      />
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                        alt="nodejs"
-                      />
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-                        alt="express"
-                      />
-                      <img src={MongoDBIcon} alt="mongodb" />
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-          </div>
-        </MotionRow>
-
-        <MotionRow>
-          <div className="project-row">
-            <div className="project-card">
-              <a
-                href="https://github.com/Manshi-Rathour/QnA-using-LLM"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="animated-card"
-              >
-                <div className="card animate-content">
-                  <div className="card-body">
-                    <h4 className="card-title">
-                      <img src={JournalIcon} alt="bookmark" /> QnA System using
-                      LLM
-                    </h4>
-                    <p className="card-text">
-                      ❓Built an advanced Q&A system for the CodeBasics dataset,
-                      featuring a vector database, embedding, and models for
-                      querying and fine-tuning responses based on the dataset.
-                    </p>
-                    <div className="icons">
-                      <img src={PythonIcon} alt="python" />
-                      <img src={GoogleCloud} alt="google cloud" />
-                      <img
-                        src="https://workable-application-form.s3.amazonaws.com/advanced/production/61557f91d9510741dc62e7f8/c3635b59-a3d2-444a-b636-a9d0061dcdde"
-                        alt="hugging face"
-                      />
-                      <img
-                        src={Langchain}
-                        alt="langchain"
-                        style={{ width: 120 }}
-                      />
-                      <img
-                        src={StreamlitIcon}
-                        alt="streamlit"
-                        style={{ width: 120, height: 40 }}
-                      />
-                      <img src={JupyterIcon} alt="jupyter notebook" />
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-
             <div className="project-card">
               <a
                 href="https://github.com/Manshi-Rathour/GitaBot"
@@ -287,12 +197,133 @@ const AllProjects = () => {
                         alt="langchain"
                         style={{ width: 120 }}
                       />
+                      <img src={JupyterIcon} alt="jupyter notebook" />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                        alt="html5"
+                      />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                        alt="css3"
+                      />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                        alt="javascript"
+                      />
+                      <img
+                        src="https://img.icons8.com/color/512/flask.png"
+                        alt="fastapi"
+                        style={{ width: 50, height: 40 }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </MotionRow>
+
+        <MotionRow>
+          <div className="project-row">
+            <div className="project-card">
+              <a
+                href="https://github.com/Manshi-Rathour/QnA-using-LLM"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="animated-card"
+              >
+                <div className="card animate-content">
+                  <div className="card-body">
+                    <h4 className="card-title">
+                      <img src={JournalIcon} alt="bookmark" /> QnA System using
+                      LLM
+                    </h4>
+                    <p className="card-text">
+                      ❓Built an advanced Q&A system trained on the CodeBasics
+                      dataset using Google PaLM and GenAI. Implemented text
+                      embeddings with HuggingFace InstructEmbeddings and used
+                      FAISS as a vector database to enable accurate,
+                      context-aware querying and fine-tuned responses.
+                    </p>
+
+                    <div className="icons">
+                      <img src={PythonIcon} alt="python" />
+                      <img src={GoogleCloud} alt="google cloud" />
+                      <img
+                        src="https://workable-application-form.s3.amazonaws.com/advanced/production/61557f91d9510741dc62e7f8/c3635b59-a3d2-444a-b636-a9d0061dcdde"
+                        alt="hugging face"
+                      />
+                      <img
+                        src={Langchain}
+                        alt="langchain"
+                        style={{ width: 120 }}
+                      />
                       <img
                         src={StreamlitIcon}
                         alt="streamlit"
                         style={{ width: 120, height: 40 }}
                       />
                       <img src={JupyterIcon} alt="jupyter notebook" />
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div className="project-card">
+              <a
+                href="https://github.com/Manshi-Rathour/Real-Estate-Price-Prediction"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="animated-card"
+              >
+                <div className="card animate-content">
+                  <div className="card-body">
+                    <h4 className="card-title">
+                      <img src={JournalIcon} alt="bookmark" /> Real Estate Price
+                      Prediction
+                    </h4>
+                    <p className="card-text">
+                      🏡Crafted a real estate price prediction model for
+                      Bangalore houses using linear regression, integrated into
+                      a user-friendly web page for real-time predictions based
+                      on area, rooms, bathrooms, and location.
+                    </p>
+                    <div className="icons">
+                      <img src={PythonIcon} alt="python" />
+                      <img src={NumpyIcon} alt="numpy" />
+                      <img src={PandasIcon} alt="pandas" />
+                      <img
+                        src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png"
+                        alt="scikit-learn"
+                        style={{ width: 100, height: 40 }}
+                      />
+                      <img src={JupyterIcon} alt="jupyter notebook" />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                        alt="html5"
+                      />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                        alt="css3"
+                      />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                        alt="javascript"
+                      />
+                      <img
+                        src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
+                        alt="fastapi"
+                        style={{ width: 100, height: 40 }}
+                      />
+                      <img
+                        src="https://arunpotti.files.wordpress.com/2021/12/microsoft_azure.svg_.png"
+                        alt="azure"
+                      />
+                      <img
+                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                        alt="postman"
+                      />
                     </div>
                   </div>
                 </div>
@@ -364,34 +395,26 @@ const AllProjects = () => {
             </div>
 
             <div className="project-card">
-              <a
-                href="https://github.com/Manshi-Rathour/Real-Estate-Price-Prediction"
+              <Link
+                to="https://github.com/Manshi-Rathour/Airbnb-Clone"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="animated-card"
               >
                 <div className="card animate-content">
                   <div className="card-body">
                     <h4 className="card-title">
-                      <img src={JournalIcon} alt="bookmark" /> Real Estate Price
-                      Prediction
+                      <img src={JournalIcon} alt="icon" /> Airbnb Clone
                     </h4>
                     <p className="card-text">
-                      🏡Crafted a real estate price prediction model for
-                      Bangalore houses using linear regression, integrated into
-                      a user-friendly web page for real-time predictions based
-                      on area, rooms, bathrooms, and location.
+                      🔥 Built a full-stack Airbnb clone using HTML, CSS,
+                      JavaScript, Node.js, Express.js, and MongoDB with MVC
+                      architecture. Key features include searchable listings
+                      with filters, Mapbox integration, secure authentication
+                      with Passport.js, role-based access, and full CRUD
+                      operations with image uploads via Cloudinary.
                     </p>
+
                     <div className="icons">
-                      <img src={PythonIcon} alt="python" />
-                      <img src={NumpyIcon} alt="numpy" />
-                      <img src={PandasIcon} alt="pandas" />
-                      <img
-                        src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png"
-                        alt="scikit-learn"
-                        style={{ width: 100, height: 40 }}
-                      />
-                      <img src={JupyterIcon} alt="jupyter notebook" />
                       <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                         alt="html5"
@@ -405,22 +428,18 @@ const AllProjects = () => {
                         alt="javascript"
                       />
                       <img
-                        src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
-                        alt="fastapi"
-                        style={{ width: 100, height: 40 }}
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                        alt="nodejs"
                       />
                       <img
-                        src="https://arunpotti.files.wordpress.com/2021/12/microsoft_azure.svg_.png"
-                        alt="azure"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+                        alt="express"
                       />
-                      <img
-                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-                        alt="postman"
-                      />
+                      <img src={MongoDBIcon} alt="mongodb" />
                     </div>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </MotionRow>
