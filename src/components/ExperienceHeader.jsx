@@ -29,13 +29,11 @@ const ExperienceHeader = () => {
       <div className="experience-header-content experience-header-item">
         <h1 className="experience-header-title">Experience</h1>
         <p className="experience-header-description">
-          I have completed internships in Data Science, ML, Full Stack
-          Development, AI Agents, and Automation. I am actively seeking
-          opportunities in these areas as well as NLP and Generative AI. I’m
-          passionate about using data and intelligent systems to create smart,
-          automated solutions that improve efficiency and bring real value to
-          users. I’m always eager to learn more and excited to contribute to
-          innovative projects with the latest technologies.
+          I’ve completed internships in Data Science, ML, Full Stack
+          Development, AI Agents, and Automation. I'm now seeking opportunities
+          in these areas, along with NLP and Generative AI. Passionate about
+          building smart, data-driven solutions that drive real impact and eager
+          to contribute to innovative projects.
         </p>
       </div>
     </div>
