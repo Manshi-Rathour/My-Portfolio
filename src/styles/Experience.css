@@ -8,6 +8,7 @@
     transform: translateY(100px);
     transition: opacity 1s ease-out, transform 1s ease-out;
     height: 80vh;
+    padding: 60px 20px;
 }
 
 .experience-header-container.visible {
