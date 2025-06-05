@@ -42,6 +42,7 @@
     .education-header-container {
         flex-direction: column;
         align-items: center;
+        height: auto;
     }
 
     .education-header-item {
@@ -292,6 +293,15 @@
 @media (max-width: 600px) {
     .certificate {
         flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .certificates-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
 
