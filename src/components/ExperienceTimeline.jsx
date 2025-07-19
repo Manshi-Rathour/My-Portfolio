@@ -22,7 +22,7 @@ const ExperienceTimeline = () => {
 
           <li>
             <div className="content">
-              <h2>Bharat Intern</h2>
+              <h2>Orbitor</h2>
               <h4>Machine Learning Intern</h4>
               <p>
                 Created a movie recommendation system using TF-IDF and cosine similarity. Developed a linear regression model for Bangalore real estate prices and built an SVM-based Iris classification model with 96% accuracy.
