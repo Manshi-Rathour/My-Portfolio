@@ -63,7 +63,7 @@ const About = () => {
             <img src={linkedinIcon} alt="LinkedIn" />
           </a>
           <a
-            href="https://www.instagram.com/_rathour_manshi?igsh=NzFvbXlzMjduZGY4"
+            href="https://www.instagram.com/_rathourmanshi?igsh=NzFvbXlzMjduZGY4"
             target="_blank"
             title="Instagram"
             rel="noopener noreferrer"
