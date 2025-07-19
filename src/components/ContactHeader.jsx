@@ -38,7 +38,7 @@ const ContactHeader = () => {
             <a href="https://github.com/Manshi-Rathour" target="_blank" rel="noopener noreferrer" title="GitHub">
               <img src={githubIcon} alt="GitHub Icon" />
             </a>
-            <a href="https://www.instagram.com/_rathour_manshi?igsh=NzFvbXlzMjduZGY4" target="_blank" rel="noopener noreferrer" title="Instagram">
+            <a href="https://www.instagram.com/_rathourmanshi?igsh=NzFvbXlzMjduZGY4" target="_blank" rel="noopener noreferrer" title="Instagram">
               <img src={instagramIcon} alt="Instagram Icon" />
             </a>
             <a href="mailto:manshi2086@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
