@@ -55,7 +55,7 @@ const ExperienceTimeline = () => {
               </p>
             </div>
             <div className="time">
-              <h4>April 2025 - Present</h4>
+              <h4>April 2025 - Jul 2025</h4>
             </div>
           </li>
           <div style={{ clear: "both" }}></div>
