@@ -40,137 +40,57 @@ const AllProjects = () => {
           <div className="project-row">
             <div className="project-card">
               <Link
-                to="https://github.com/Manshi-Rathour/Ecommerce-DataEngineering"
+                to="https://github.com/Manshi-Rathour/FilesGPT"
                 target="_blank"
                 className="animated-card"
               >
                 <div className="card animate-content">
                   <div className="card-body">
                     <h4 className="card-title">
-                      <img src={JournalIcon} alt="icon" /> E-commerce Data
-                      Engineering
+                      <img src={JournalIcon} alt="icon" /> FilesGPT
                     </h4>
                     <p className="card-text">
-                      🔥Designed a cloud-based big data pipeline using Azure
-                      (ADF, ADLS, Databricks, Synapse) for data ingestion,
-                      transformation, and EDA, integrating data from SQL,
-                      MongoDB, and GitHub.
+                      🔥 It is a personalized document intelligence platform built with Python, FastAPI, React, and MongoDB that enables secure querying of PDFs, images, scanned documents, and URLs. It leverages OCR and text-processing pipelines along with a LangChain-based RAG architecture to deliver accurate, context-aware AI responses from user data.
                     </p>
                     <div className="icons">
                       <img src={PythonIcon} alt="python" />
+
                       <img
-                        src="https://swimburger.net/media/ppnn3pcl/azure.png"
-                        alt="azure"
+                        src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
+                        alt="fastapi"
+                        style={{ width: 100, height: 40 }}
                       />
-                      <img src={MySQLIcon} alt="sql" />
-                      <img src={MongoDBIcon} alt="mongodb" />
-                      <img src={GithubIcon} alt="github" />
+
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                        alt="react"
+                        style={{ width: 40, height: 40 }}
+                      />
+
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+                        alt="mongodb"
+                        style={{ width: 40, height: 40 }}
+                      />
+
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/5/55/Pinecone-Full-Logo-Black.svg"
+                        alt="pinecone"
+                        style={{ width: 100, height: 40 }}
+                      />
+
+                      <img
+                        src={Langchain}
+                        alt="langchain"
+                        style={{ width: 120 }}
+                      />
+
                     </div>
                   </div>
                 </div>
               </Link>
             </div>
 
-            <div className="project-card">
-              <Link
-                to="https://github.com/Manshi-Rathour/PDF-Assistant"
-                target="_blank"
-                className="animated-card"
-              >
-                <div className="card animate-content">
-                  <div className="card-body">
-                    <h4 className="card-title">
-                      <img src={JournalIcon} alt="icon" /> PDF Assistant
-                    </h4>
-                    <p className="card-text">
-                      🔥A Python app that lets users interact with PDFs, upload
-                      custom ones, and use an interactive CLI. It works with
-                      cloud or local databases and is pre-trained to help manage
-                      and retrieve PDF content efficiently.
-                    </p>
-                    <div className="icons">
-                      <img src={PythonIcon} alt="python" />
-                      <img
-                        src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png"
-                        alt="docker"
-                      />
-                      <img
-                        src="https://raw.githubusercontent.com/RMNCLDYO/groq-ai-toolkit/main/.github/groq-logo.png"
-                        alt="groq"
-                        style={{ width: "70px", height: "30px" }}
-                      />
-                      <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png"
-                        alt="aws"
-                        style={{ width: "50px", height: "30px" }}
-                      />
-                      <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png"
-                        alt="PostgreSQL"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-          </div>
-        </MotionRow>
-
-        <MotionRow>
-          <div className="project-row">
-            <div className="project-card">
-              <Link
-                to="https://github.com/Manshi-Rathour/Financial-AI-Analyst"
-                target="_blank"
-                className="animated-card"
-              >
-                <div className="card animate-content">
-                  <div className="card-body">
-                    <h4 className="card-title">
-                      <img src={JournalIcon} alt="icon" /> Financial-AI-Analyst
-                    </h4>
-                    <p className="card-text">
-                      🔥 Built an AI-driven financial platform with real-time
-                      stock data, news, and analyst insights using Streamlit and
-                      LLaMA-3 agents powered by YFinance and DuckDuckGo tools.
-                    </p>
-
-                    <div className="icons">
-                      <img src={PythonIcon} alt="python" />
-                      <img
-                        src="https://raw.githubusercontent.com/RMNCLDYO/groq-ai-toolkit/main/.github/groq-logo.png"
-                        alt="groq"
-                        style={{ width: "70px", height: "30px" }}
-                      />
-                      <img
-                        src={OpenAIIcon}
-                        alt="openai"
-                        style={{ width: "60px" }}
-                      />
-                      <img
-                        src="https://mintlify.s3.us-west-1.amazonaws.com/phidata/logo/light.svg"
-                        alt="phidata"
-                        style={{ width: "100px" }}
-                      />
-                      <img
-                        src={StreamlitIcon}
-                        alt="streamlit"
-                        style={{ width: "120px", height: "40px" }}
-                      />
-                      <img
-                        src="https://cdn4.vectorstock.com/i/1000x1000/35/73/yf-logo-with-triangle-shape-and-circle-vector-30143573.jpg"
-                        alt="yfinance"
-                      />
-                      <img
-                        src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/The_DuckDuckGo_Duck.png/1200px-The_DuckDuckGo_Duck.png"
-                        alt="duckduckgo"
-                        style={{ width: "50px" }}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
             <div className="project-card">
               <a
                 href="https://github.com/Manshi-Rathour/GitaBot"
@@ -184,11 +104,9 @@ const AllProjects = () => {
                       <img src={JournalIcon} alt="bookmark" /> GitaBot
                     </h4>
                     <p className="card-text">
-                      🔥 Explore divine wisdom with Lord Krishna through the
-                      Bhagavad Gita in an interactive chatbot that lets you ask
-                      questions via text or voice and receive insightful
-                      responses in both text and voice formats.
+                      🔥 Developed GitaBot, a multilingual and sentiment-aware chatbot inspired by the Bhagavad Gita, delivering contextual spiritual insights. Integrated voice and text support along with 10+ languages using Python, Flask, Groq API, NLTK, and GCP Translation API to enhance accessibility and user experience.
                     </p>
+
                     <div className="icons">
                       <img src={PythonIcon} alt="python" />
                       <img src={GoogleCloud} alt="google cloud" />
@@ -219,6 +137,105 @@ const AllProjects = () => {
                   </div>
                 </div>
               </a>
+            </div>
+
+          </div>
+        </MotionRow>
+
+        <MotionRow>
+          <div className="project-row">
+
+            <div className="project-card">
+              <a
+                href="https://github.com/Manshi-Rathour/Real-Estate-Price-Prediction"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="animated-card"
+              >
+                <div className="card animate-content">
+                  <div className="card-body">
+                    <h4 className="card-title">
+                      <img src={JournalIcon} alt="bookmark" /> Real Estate Price
+                      Prediction
+                    </h4>
+                    <p className="card-text">
+                      🏡 Built a real estate price prediction model for Bangalore houses using Python, Flask, and linear regression. The platform provides accurate price estimates based on area, rooms, bathrooms, and location, with an interactive interface that improves usability and engagement.
+                    </p>
+
+
+                    <div className="icons">
+                      <img src={PythonIcon} alt="python" />
+                      <img src={NumpyIcon} alt="numpy" />
+                      <img src={PandasIcon} alt="pandas" />
+                      <img
+                        src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png"
+                        alt="scikit-learn"
+                        style={{ width: 100, height: 40 }}
+                      />
+                      <img src={JupyterIcon} alt="jupyter notebook" />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                        alt="html5"
+                      />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                        alt="css3"
+                      />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                        alt="javascript"
+                      />
+                      <img
+                        src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
+                        alt="fastapi"
+                        style={{ width: 100, height: 40 }}
+                      />
+                      <img
+                        src="https://arunpotti.files.wordpress.com/2021/12/microsoft_azure.svg_.png"
+                        alt="azure"
+                      />
+                      <img
+                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                        alt="postman"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div className="project-card">
+              <Link
+                to="https://github.com/Manshi-Rathour/Ecommerce-DataEngineering"
+                target="_blank"
+                className="animated-card"
+              >
+                <div className="card animate-content">
+                  <div className="card-body">
+                    <h4 className="card-title">
+                      <img src={JournalIcon} alt="icon" /> E-commerce Data
+                      Engineering
+                    </h4>
+                    <p className="card-text">
+                      🔥 Designed and implemented a cloud-based big data engineering pipeline on
+                      Azure using ADF, ADLS, Databricks, and Synapse for efficient data ingestion,
+                      transformation, and exploratory data analysis. The pipeline integrates data
+                      from multiple sources including SQL databases, MongoDB, and GitHub to enable
+                      scalable and reliable analytics.
+                    </p>
+                    <div className="icons">
+                      <img src={PythonIcon} alt="python" />
+                      <img
+                        src="https://swimburger.net/media/ppnn3pcl/azure.png"
+                        alt="azure"
+                      />
+                      <img src={MySQLIcon} alt="sql" />
+                      <img src={MongoDBIcon} alt="mongodb" />
+                      <img src={GithubIcon} alt="github" />
+                    </div>
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
         </MotionRow>
@@ -271,171 +288,54 @@ const AllProjects = () => {
             </div>
 
             <div className="project-card">
-              <a
-                href="https://github.com/Manshi-Rathour/Real-Estate-Price-Prediction"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="animated-card"
-              >
-                <div className="card animate-content">
-                  <div className="card-body">
-                    <h4 className="card-title">
-                      <img src={JournalIcon} alt="bookmark" /> Real Estate Price
-                      Prediction
-                    </h4>
-                    <p className="card-text">
-                      🏡Crafted a real estate price prediction model for
-                      Bangalore houses using linear regression, integrated into
-                      a user-friendly web page for real-time predictions based
-                      on area, rooms, bathrooms, and location.
-                    </p>
-                    <div className="icons">
-                      <img src={PythonIcon} alt="python" />
-                      <img src={NumpyIcon} alt="numpy" />
-                      <img src={PandasIcon} alt="pandas" />
-                      <img
-                        src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png"
-                        alt="scikit-learn"
-                        style={{ width: 100, height: 40 }}
-                      />
-                      <img src={JupyterIcon} alt="jupyter notebook" />
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                        alt="html5"
-                      />
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                        alt="css3"
-                      />
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                        alt="javascript"
-                      />
-                      <img
-                        src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
-                        alt="fastapi"
-                        style={{ width: 100, height: 40 }}
-                      />
-                      <img
-                        src="https://arunpotti.files.wordpress.com/2021/12/microsoft_azure.svg_.png"
-                        alt="azure"
-                      />
-                      <img
-                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-                        alt="postman"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </MotionRow>
-
-        <MotionRow>
-          <div className="project-row">
-            <div className="project-card">
-              <a
-                href="https://github.com/Manshi-Rathour/AI_Assistant"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="animated-card"
-              >
-                <div className="card animate-content">
-                  <div className="card-body">
-                    <h4 className="card-title">
-                      <img src={JournalIcon} alt="bookmark" /> AI Assistant
-                    </h4>
-                    <p className="card-text">
-                      🔶 Chatbot
-                      <br />
-                      🔶 Text Extraction from handwritten text in images and
-                      PDFs
-                      <br />
-                      🔶 Text Summarization from text, images, PDFs, and web
-                      pages
-                      <br />
-                      🔶 Real-Time Language Translation from text as well as
-                      speech
-                    </p>
-
-                    <div className="icons">
-                      <img src={PythonIcon} alt="python" />
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                        alt="html5"
-                      />
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                        alt="css3"
-                      />
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                        alt="javascript"
-                      />
-                      <img
-                        src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
-                        alt="fastapi"
-                        style={{ width: 100, height: 40 }}
-                      />
-                      <img
-                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-                        alt="postman"
-                      />
-                      <img src={GoogleCloud} alt="google cloud" />
-                      <img
-                        src="https://workable-application-form.s3.amazonaws.com/advanced/production/61557f91d9510741dc62e7f8/c3635b59-a3d2-444a-b636-a9d0061dcdde"
-                        alt="hugging face"
-                      />
-                      <img src={OpenAIIcon} alt="openai" />
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div className="project-card">
               <Link
-                to="https://github.com/Manshi-Rathour/Airbnb-Clone"
+                to="https://github.com/Manshi-Rathour/Financial-AI-Analyst"
                 target="_blank"
                 className="animated-card"
               >
                 <div className="card animate-content">
                   <div className="card-body">
                     <h4 className="card-title">
-                      <img src={JournalIcon} alt="icon" /> Airbnb Clone
+                      <img src={JournalIcon} alt="icon" /> Financial-AI-Analyst
                     </h4>
                     <p className="card-text">
-                      🔥 Built a full-stack Airbnb clone using HTML, CSS,
-                      JavaScript, Node.js, Express.js, and MongoDB with MVC
-                      architecture. Key features include searchable listings
-                      with filters, Mapbox integration, secure authentication
-                      with Passport.js, role-based access, and full CRUD
-                      operations with image uploads via Cloudinary.
+                      🔥 Built an AI-driven financial analysis platform that delivers real-time
+                      stock data, market news, and analyst insights. The system leverages Streamlit
+                      for the interface and LLaMA-3 agents powered by YFinance and DuckDuckGo tools
+                      to provide intelligent, up-to-date financial insights.
                     </p>
 
                     <div className="icons">
+                      <img src={PythonIcon} alt="python" />
                       <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                        alt="html5"
+                        src="https://raw.githubusercontent.com/RMNCLDYO/groq-ai-toolkit/main/.github/groq-logo.png"
+                        alt="groq"
+                        style={{ width: "70px", height: "30px" }}
                       />
                       <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                        alt="css3"
+                        src={OpenAIIcon}
+                        alt="openai"
+                        style={{ width: "60px" }}
                       />
                       <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                        alt="javascript"
+                        src="https://mintlify.s3.us-west-1.amazonaws.com/phidata/logo/light.svg"
+                        alt="phidata"
+                        style={{ width: "100px" }}
                       />
                       <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                        alt="nodejs"
+                        src={StreamlitIcon}
+                        alt="streamlit"
+                        style={{ width: "120px", height: "40px" }}
                       />
                       <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-                        alt="express"
+                        src="https://cdn4.vectorstock.com/i/1000x1000/35/73/yf-logo-with-triangle-shape-and-circle-vector-30143573.jpg"
+                        alt="yfinance"
                       />
-                      <img src={MongoDBIcon} alt="mongodb" />
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/The_DuckDuckGo_Duck.png/1200px-The_DuckDuckGo_Duck.png"
+                        alt="duckduckgo"
+                        style={{ width: "50px" }}
+                      />
                     </div>
                   </div>
                 </div>

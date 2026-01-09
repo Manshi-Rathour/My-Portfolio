@@ -36,20 +36,17 @@ const About = () => {
         <h2 className="about-name">Manshi Rathour</h2>
         <h5 className="about-title">
           <em>
-            AI Full Stack Web Developer &<br />
-            Aspiring Data Scientist
+            Full Stack AI Engineer
           </em>
         </h5>
         <p className="about-description">
-          I am deeply passionate about the intersection of artificial
-          intelligence and web development. My expertise spans ML, DL, NLP, LLM,
-          Gen AI, and AI Agents. In parallel, I have a strong foundation in
-          full-stack web development, which I leverage to build innovative,
-          data-driven applications. By combining AI with scalable cloud
-          technologies, I strive to create impactful solutions to real-world
-          challenges. I am continuously expanding my knowledge through hands-on
-          projects, academic coursework, and contributions to platforms like
-          GitHub, LeetCode, and Kaggle.
+          I am a motivated AI enthusiast and full-stack developer with a strong
+          foundation in web development and data science. I have hands-on experience
+          building scalable, data-driven applications using ML, NLP, and RAG. Alongside
+          this, I actively strengthen my problem-solving skills by consistently working
+          on data structures and algorithms. I am passionate about integrating AI with
+          modern web technologies to create efficient, impactful, and real-world
+          solutions.
         </p>
 
         {/* Social Links */}

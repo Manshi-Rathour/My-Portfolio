@@ -127,7 +127,7 @@ const WhatIDo = () => {
         descriptions={[
           "📊 Data Science: Proficient in EDA, data preprocessing, and visualization using Pandas, Numpy, Matplotlib, Seaborn.",
           "🤖 Machine Learning: Built ML/DL models using TensorFlow, Keras, Scikit-learn for predictions and classification.",
-          "🗣️ NLP & LLMs: Developed NLP systems using LangChain, SpaCy, NLTK; fine-tuned LLMs for AI apps.",
+          "🗣️ NLP: Developed end-to-end NLP pipelines with LangChain, RAG, and LLM fine-tuning.",
           "🧠 AI Agents: Created AI agents with Phidata & Groq for automation and intelligent decision-making.",
           "📉 Visualization: Dashboards with Matplotlib, Seaborn, Excel, and PowerBI for actionable insights.",
         ]}
@@ -141,8 +141,6 @@ const WhatIDo = () => {
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
           flaskIcon,
           "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png",
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
@@ -154,7 +152,7 @@ const WhatIDo = () => {
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png",
         ]}
         descriptions={[
-          "💻 Built full-stack apps using HTML, CSS, JS, React, Express, Node, Flask, FastAPI, and Streamlit.",
+          "💻 Built full-stack apps using HTML, CSS, JS, React, Flask, FastAPI, and Streamlit.",
           "🔒 Added secure login systems, roles, and permissions.",
           "📱 Designed responsive apps optimized for all devices.",
           "☁️ Cloud: Experience with AWS, Azure, GCP.",
