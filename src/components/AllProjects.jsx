@@ -104,7 +104,7 @@ const AllProjects = () => {
                       <img src={JournalIcon} alt="bookmark" /> GitaBot
                     </h4>
                     <p className="card-text">
-                      🔥 Developed GitaBot, a multilingual and sentiment-aware chatbot inspired by the Bhagavad Gita, delivering contextual spiritual insights. Integrated voice and text support along with 10+ languages using Python, Flask, Groq API, NLTK, and GCP Translation API to enhance accessibility and user experience.
+                      🔥 Developed GitaBot, a multilingual Flask chatbot supporting 10+ languages with Google Cloud Translation API, VADER sentiment analysis, and Llama 3 to deliver personalized, context-aware Bhagavad Gita guidance with relevant verses and meanings.
                     </p>
 
                     <div className="icons">
@@ -159,7 +159,7 @@ const AllProjects = () => {
                       Prediction
                     </h4>
                     <p className="card-text">
-                      🏡 Built a real estate price prediction model for Bangalore houses using Python, Flask, and linear regression. The platform provides accurate price estimates based on area, rooms, bathrooms, and location, with an interactive interface that improves usability and engagement.
+                      🏡 Built an end-to-end house price prediction app using Scikit-learn (85% accuracy), FastAPI, and an interactive HTML/CSS/JS frontend, then containerized with Docker and deployed on AWS EC2 for real-time price estimation.
                     </p>
 
 
@@ -197,6 +197,15 @@ const AllProjects = () => {
                       <img
                         src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
                         alt="postman"
+                      />
+
+                      <img
+                        src="https://cdn.iconscout.com/icon/free/png-256/free-docker-logo-icon-svg-download-png-3029959.png?f=webp"
+                        alt="docker"
+                      />
+                      <img
+                        src="https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg"
+                        alt="aws"
                       />
                     </div>
                   </div>
@@ -256,7 +265,7 @@ const AllProjects = () => {
                       LLM
                     </h4>
                     <p className="card-text">
-                      ❓Built an advanced Q&A system trained on the CodeBasics
+                      ❓Created an advanced Q&A system trained on the CodeBasics
                       dataset using Google PaLM and GenAI. Implemented text
                       embeddings with HuggingFace InstructEmbeddings and used
                       FAISS as a vector database to enable accurate,
@@ -299,7 +308,7 @@ const AllProjects = () => {
                       <img src={JournalIcon} alt="icon" /> Financial-AI-Analyst
                     </h4>
                     <p className="card-text">
-                      🔥 Built an AI-driven financial analysis platform that delivers real-time
+                      🔥 An AI-driven financial analysis platform that delivers real-time
                       stock data, market news, and analyst insights. The system leverages Streamlit
                       for the interface and LLaMA-3 agents powered by YFinance and DuckDuckGo tools
                       to provide intelligent, up-to-date financial insights.

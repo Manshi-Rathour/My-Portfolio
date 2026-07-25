@@ -7,13 +7,14 @@ import nitp from "../assets/nitp.png";
 import google from "../assets/google.webp";
 import postman from "../assets/postman.webp";
 import internshala from "../assets/internshala.jpg";
+import cdac from "../assets/cdac.png"
 
 const Certifications = () => {
   const certificateData = [
     {
-      title: "AI with Machine Learning",
-      img: "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Indian_Institute_of_Technology%2C_Patna.svg/640px-Indian_Institute_of_Technology%2C_Patna.svg.png",
-      link: "https://media.licdn.com/dms/image/v2/D562DAQE8e0Wy0m_bMg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1729435119964?e=1737802800&v=beta&t=NQoN_kocZlV-YO_3u2Q9hPxeQFQ7TKyuVimQ-uAFbQ8",
+      title: "AI Internship",
+      img: cdac,
+      link: "https://www.linkedin.com/in/manshi-rathour/details/experience/",
     },
     {
       title: "Problem Solving using Java",

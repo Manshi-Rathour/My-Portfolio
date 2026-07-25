@@ -36,36 +36,22 @@ const About = () => {
         <h2 className="about-name">Manshi Rathour</h2>
         <h5 className="about-title">
           <em>
-            Full Stack AI Engineer
+            Full Stack AI Developer
           </em>
         </h5>
         <p className="about-description">
-          I am a motivated AI enthusiast and full-stack developer with a strong
-          foundation in web development and data science. I have hands-on experience
-          building scalable, data-driven applications using ML, NLP, and RAG. Alongside
-          this, I actively strengthen my problem-solving skills by consistently working
-          on data structures and algorithms. I am passionate about integrating AI with
-          modern web technologies to create efficient, impactful, and real-world
-          solutions.
+          I am a Full-Stack AI Developer with hands-on experience designing and deploying production-ready AI applications. My expertise spans Machine Learning, Deep Learning, LLMs, RAG, AI Agents, and automation, along with Python, FastAPI, React, MySQL, Docker, and AWS. I enjoy building scalable, intelligent systems from predictive ML models to modern generative AI applications with a strong focus on clean architecture, performance, and delivering real-world impact.
         </p>
 
         {/* Social Links */}
         <div className="social-icons">
           <a
-            href="https://www.linkedin.com/in/manshi-rathour-bb0b87272/"
+            href="https://www.linkedin.com/in/manshi-rathour/"
             target="_blank"
             title="LinkedIn"
             rel="noopener noreferrer"
           >
             <img src={linkedinIcon} alt="LinkedIn" />
-          </a>
-          <a
-            href="https://www.instagram.com/_rathourmanshi?igsh=NzFvbXlzMjduZGY4"
-            target="_blank"
-            title="Instagram"
-            rel="noopener noreferrer"
-          >
-            <img src={instagramIcon} alt="Instagram" />
           </a>
           <a
             href="https://github.com/Manshi-Rathour"
@@ -124,7 +110,7 @@ const About = () => {
 
         <div className="resume-link">
           <a
-            href="https://docs.google.com/document/d/10-1bY9eYsq21-Al1a4Uun1TJftD7_kAo/edit?usp=sharing&ouid=112546153726466097881&rtpof=true&sd=true"
+            href="https://drive.google.com/file/d/1Qg8VJlDXzhqIL121VY6nz5aohOistDxb/view?usp=sharing"
             target="_blank"
             className="resume-button"
             rel="noopener noreferrer"

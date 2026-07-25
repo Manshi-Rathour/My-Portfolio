@@ -12,14 +12,14 @@ const Amity = () => {
         <div className="card-header clg-name">
           <h3 className="clg-title">Amity University Patna</h3>
           <h6 className="clg-subtitle">B.Tech. in Computer Science Engineering</h6>
-          <p className="clg-date">(2022 - present)</p>
+          <p className="clg-date">(2022 - 2026)</p>
         </div>
         <div className="card-body clg-details">
           <p className="card-text">
-            ⚡ I am studying fundamental software engineering subjects, including C, C++, Java, Python, AI, DSA, OS, TOC, DBMS, Networking, etc.
+            ⚡ I am studying fundamental software engineering subjects, including C, C++, Java, Python, DSA, OS, DBMS, Networking, AI, etc.
           </p>
           <p className="card-text">
-            ⚡ In addition to my academic coursework, I am expanding my skills in Data Science, ML, DL, NLP, LLMs, Gen AI, AI agents and Full Stack Web Development.
+            ⚡ In addition to my academic coursework, I am expanding my skills in Data Science, Machine Learning, Deep Learning, NLP, LLMs, Gen AI, AI agents and Backend Development (Python).
           </p>
           <a
             href="https://amity.edu/Bihar/"
