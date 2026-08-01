@@ -110,7 +110,7 @@ const About = () => {
 
         <div className="resume-link">
           <a
-            href="https://drive.google.com/file/d/1uasTCnTilt86gBMQ3Iv-h-v8Fh8QfJzi/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CkVV-SGgFdlDO2BTeUCSLLUyCZ6mi0D6/view?usp=sharing"
             target="_blank"
             className="resume-button"
             rel="noopener noreferrer"
