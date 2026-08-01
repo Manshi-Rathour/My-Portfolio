@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Home.css";
-import profileImg from "../assets/profile2.jpg";
+import profileImg from "../assets/profile1.png";
 import linkedinIcon from "../assets/linkedin.webp";
 import instagramIcon from "../assets/insta.webp";
 import githubIcon from "../assets/github.svg";
