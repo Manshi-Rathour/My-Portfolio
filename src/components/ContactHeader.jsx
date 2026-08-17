@@ -32,14 +32,11 @@ const ContactHeader = () => {
           <h1>Contact Me</h1>
 
           <div id="contact-icons">
-            <a href="https://www.linkedin.com/in/manshi-rathour-bb0b87272/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/manshi-rathour/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
               <img src={linkedinIcon} alt="LinkedIn Icon" />
             </a>
             <a href="https://github.com/Manshi-Rathour" target="_blank" rel="noopener noreferrer" title="GitHub">
               <img src={githubIcon} alt="GitHub Icon" />
-            </a>
-            <a href="https://www.instagram.com/_rathourmanshi?igsh=NzFvbXlzMjduZGY4" target="_blank" rel="noopener noreferrer" title="Instagram">
-              <img src={instagramIcon} alt="Instagram Icon" />
             </a>
             <a href="mailto:manshi2086@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
               <img src={emailIcon} alt="Email Icon" />
