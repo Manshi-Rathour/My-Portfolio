@@ -45,7 +45,7 @@ const ContactHeader = () => {
 
           <div id="resume">
             <a
-              href="https://drive.google.com/file/d/1GpU2vrn0sA0ySl2zX9K9t2NW2pgwxUdY/view?usp=sharing"
+              href="https://drive.google.com/file/d/1IC5ItgBsZcoqarisI_-iS2D6kKNN9z6k/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="resume-button"
