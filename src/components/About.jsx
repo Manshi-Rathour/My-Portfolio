@@ -36,11 +36,11 @@ const About = () => {
         <h2 className="about-name">Manshi Rathour</h2>
         <h5 className="about-title">
           <em>
-            Full Stack AI Developer
+            AI Developer
           </em>
         </h5>
         <p className="about-description">
-          I am a Full-Stack AI Developer with hands-on experience designing and deploying production-ready AI applications. My expertise spans Machine Learning, Deep Learning, LLMs, RAG, AI Agents, and automation, along with Python, FastAPI, React, MySQL, Docker, and AWS. I enjoy building scalable, intelligent systems from predictive ML models to modern generative AI applications with a strong focus on clean architecture, performance, and delivering real-world impact.
+          I am a AI Developer with hands-on experience designing and deploying production-ready AI applications. My expertise spans Machine Learning, Deep Learning, LLMs, RAG, AI Agents, and automation, along with Python, FastAPI, React, MySQL, Docker, and AWS. I enjoy building scalable, intelligent systems from predictive ML models to modern generative AI applications with a strong focus on clean architecture, performance, and delivering real-world impact.
         </p>
 
         {/* Social Links */}
@@ -110,7 +110,7 @@ const About = () => {
 
         <div className="resume-link">
           <a
-            href="https://drive.google.com/file/d/1GpU2vrn0sA0ySl2zX9K9t2NW2pgwxUdY/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IC5ItgBsZcoqarisI_-iS2D6kKNN9z6k/view?usp=sharing"
             target="_blank"
             className="resume-button"
             rel="noopener noreferrer"
