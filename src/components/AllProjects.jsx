@@ -104,7 +104,7 @@ const AllProjects = () => {
                       <img src={JournalIcon} alt="bookmark" /> GitaBot
                     </h4>
                     <p className="card-text">
-                      🔥 Developed GitaBot, a multilingual Flask chatbot supporting 10+ languages with Google Cloud Translation API, VADER sentiment analysis, and Llama 3 to deliver personalized, context-aware Bhagavad Gita guidance with relevant verses and meanings.
+                      🔥 Developed GitaBot, a multilingual Flask chatbot supporting Hindi & English with Google Cloud Translation API, VADER sentiment analysis, and LLM to deliver personalized, context-aware Bhagavad Gita guidance with relevant verses and meanings.
                     </p>
 
                     <div className="icons">
