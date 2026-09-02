@@ -47,7 +47,7 @@ const AllProjects = () => {
                 <div className="card animate-content">
                   <div className="card-body">
                     <h4 className="card-title">
-                      <img src={JournalIcon} alt="icon" /> FilesGPT
+                      <img src={JournalIcon} alt="icon" /> Doc-Assistant
                     </h4>
                     <p className="card-text">
                       🔥 It is a personalized document intelligence platform built with Python, FastAPI, React, and MongoDB that enables secure querying of PDFs, images, scanned documents, and URLs. It leverages OCR and text-processing pipelines along with a LangChain-based RAG architecture to deliver accurate, context-aware AI responses from user data.
