@@ -40,17 +40,17 @@ const AllProjects = () => {
           <div className="project-row">
             <div className="project-card">
               <Link
-                to="https://github.com/Manshi-Rathour/FilesGPT"
+                to="https://github.com/Manshi-Rathour/CodeAtlas"
                 target="_blank"
                 className="animated-card"
               >
                 <div className="card animate-content">
                   <div className="card-body">
                     <h4 className="card-title">
-                      <img src={JournalIcon} alt="icon" /> FilesGPT
+                      <img src={JournalIcon} alt="icon" /> CodeAtlas
                     </h4>
                     <p className="card-text">
-                      🔥 It is a personalized document intelligence platform built with Python, FastAPI, React, and MongoDB that enables secure querying of PDFs, images, scanned documents, and URLs. It leverages OCR and text-processing pipelines along with a LangChain-based RAG architecture to deliver accurate, context-aware AI responses from user data.
+                      🔥 CodeAtlas is an AI-powered codebase intelligence platform that simplifies understanding complex repositories through automated code analysis, architecture visualization, dependency mapping, and API detection. Built with Python, FastAPI, React, PostgreSQL, and Tree-sitter, it supports 16 programming languages and integrates local LLM-powered RAG chat and automated documentation with source-code citations.
                     </p>
                     <div className="icons">
                       <img src={PythonIcon} alt="python" />
@@ -68,21 +68,18 @@ const AllProjects = () => {
                       />
 
                       <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-                        alt="mongodb"
-                        style={{ width: 40, height: 40 }}
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                        alt="javascript"
                       />
 
                       <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/5/55/Pinecone-Full-Logo-Black.svg"
-                        alt="pinecone"
-                        style={{ width: 100, height: 40 }}
+                        src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/3840px-Postgresql_elephant.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+                        alt="postgresql"
                       />
 
                       <img
-                        src={Langchain}
-                        alt="langchain"
-                        style={{ width: 120 }}
+                        src="https://cdn.iconscout.com/icon/free/png-256/free-docker-logo-icon-svg-download-png-3029959.png?f=webp"
+                        alt="docker"
                       />
 
                     </div>
